@@ -1,0 +1,17 @@
+/*fonts*/
+
+.regrets-major {
+  font-family: "regrets-major", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.dorsa-regular {
+  font-family: "Dorsa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat";
+  font-weight: 500;
+}

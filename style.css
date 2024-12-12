@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url(Rectangle.svg);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.h-1-2 {
+  height: 73%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mx-small {
+  margin: 0 2vw;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.full-screen {
+  height: 100svh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100svw;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.items-end {
+  align-items: end;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+.padding-big {
+  padding: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*font-sizes*/
+
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
+.text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+.text-m {
+  font-size: 1.5rem;
+}
+
+.text-p {
+  font-size: 3rem;
+}
+
+.text-lg {
+  font-size: 5rem; /* 18px */
+}
+
+.text-xl {
+  font-size: 10rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+.purple-gradient {
+  background: linear-gradient(90deg, #5a3fba, #d86f9b);
+}
+
+.footer-landing-page {
+  justify-self: end;
+}
+
+header {
+  position: absolute;
+  top: 2%;
+}
+
+#landing-page {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 100px;
+  grid-template-areas:
+    "landing-main"
+    "landing-footer";
+}
+
+#service-page {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+h2 {
+  margin: 0;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+#service-page > div {
+  margin-left: 5vw;
+}
+
+.why-box {
+  border: 1px solid black;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.gap-200 {
+  gap: 200px;
+}
+
+.border-b {
+  border-bottom: 1px solid black;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#scrollButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#scrollButton:hover {
+  background-color: #555;
+}
+
+.no-underline {
+  text-decoration: none; /* No underline by default */
+  color: inherit;
+}
+
+.no-underline:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
